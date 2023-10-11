@@ -1,0 +1,54 @@
+﻿body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    background-color: blue;
+}
+
+header, footer {
+    margin: 0 auto;
+    background-color: forestgreen; 
+    text-align: center;
+}
+
+.here {
+    color: brown;
+}
+
+li:nth-child(2) {
+    color:aquamarine;
+    letter-spacing: 2px;
+}
+
+.tableSmall td{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.greenRow {
+    background-color: forestgreen;
+}
+
+.redCol {
+    background-color: orangered;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-radius: 15px 0;
+    float:left;
+    margin-right: 10px;
+    padding: 10px;
+}
