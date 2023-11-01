@@ -1,0 +1,36 @@
+﻿body {
+    margin-left: 0;
+}
+
+.content {
+    background-color: darkgray;
+    position: relative;
+}
+
+.square {
+    background-color: aqua;
+    float: left;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+}
+
+.list {
+    background-color: bisque;
+    width: 100%;
+    position: absolute;
+}
+
+footer {
+    height: 60px;
+    background-color: limegreen;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.content > p {
+    padding-left: 200px;
+}
+

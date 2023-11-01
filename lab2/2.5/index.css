@@ -1,0 +1,14 @@
+﻿body {
+    margin-left: 10px;
+    
+}
+
+
+.content {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;   
+    background-color: blue;
+    color: aliceblue;
+}
+

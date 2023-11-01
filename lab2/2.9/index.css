@@ -1,0 +1,15 @@
+﻿body {
+    margin-left: 10px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 600px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.img {
+    float: right;
+}
+

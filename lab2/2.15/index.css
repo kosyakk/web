@@ -1,0 +1,16 @@
+﻿body {
+    margin-left: 10px;
+}
+
+.inline-block {
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 15px;
+}
+
+.box_clear_property {
+    background-color: bisque;
+    clear: left;
+}

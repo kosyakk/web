@@ -1,0 +1,43 @@
+﻿body {
+    margin-left: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.square {
+    background-color: aqua;
+    border: 2px solid green;
+    display: flex;
+}
+
+.list {
+    background-color: bisque;
+    width: 30%;
+    height: 30%;
+    float: left;
+    position: relative;
+    flex: auto;
+}
+
+.content {
+    background-color: darkgray;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    float: right;
+    width: 60%;
+}
+
+@media (max-width: 600px) {
+
+    .content {
+        margin: 0;
+    }
+}
+
+

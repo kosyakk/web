@@ -1,0 +1,45 @@
+﻿body {
+    margin-left: 0;
+}
+
+.square {
+    background-color: aqua;
+    border: 2px solid green;
+    display: flex;
+}
+
+.list {
+    background-color: bisque;
+    width: 30%;
+    height: 30%;
+    float: left;
+    position: relative;
+    flex: auto;
+}
+
+.content {
+    background-color: darkgray;
+    width: 70%;
+}
+
+@media (max-width: 600px) {
+    .square {
+        display: inline-block;
+    }
+
+    .list {
+        float: none;
+        width: 100%;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .content {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+

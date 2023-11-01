@@ -1,0 +1,16 @@
+﻿body {
+    margin-left: 10px;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: aqua;
+    height: 250px;
+    border: 2px solid green;
+}
+
+.img {
+    float: right;
+    height: 250px;
+}
+

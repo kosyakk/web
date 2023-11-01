@@ -1,0 +1,55 @@
+﻿body {
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+
+.content_stat {
+    background-color: blueviolet;
+    width: 150px;
+    height: 100px;
+    position: static;
+}
+
+.content_rel {
+    width: 150px;
+    height: 100px;
+    background-color: darkred;
+    position: relative;
+}
+
+.content_rel_below {
+    width: 150px;
+    height: 100px;
+    background-color: peru;
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+
+.content_rel_big {
+    max-width: 600px;
+    min-width: 300px;
+    height: 300px;
+    background-color: indianred;
+    position: relative;
+}
+
+.content_rel_in {
+    max-width: 50%;
+    min-width: 15%;
+    height: 100px;
+    background-color: indigo;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.content_fix {
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+}
