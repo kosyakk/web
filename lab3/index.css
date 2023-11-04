@@ -1,0 +1,77 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: white;
+    background-color: green;
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.5em;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+}
+
+header, footer {
+    margin-left: 0;
+}
+
+.content {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    flex: 1 1 auto;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+
+aside nav {
+    padding: 15px;
+    padding-left: 30px;
+}
+
+aside nav p {
+    text-decoration: underline;
+    color: white;
+}
+
+main {
+    margin-left: 200px;
+    padding: 15px;
+    text-align: justify;
+    color: black;
+}
+
+nav p:hover {
+    background-color: green;
+}
+
+span {
+    color: red;
+}
+
+@media (width < 1000px) {
+    .content {
+        margin: auto;
+        width: 100%;
+    }
+}
