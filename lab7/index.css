@@ -1,0 +1,81 @@
+:root {
+    font-family: 'arial', sans-serif;
+    font-size: medium;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0.5rem;
+    display: block flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    background-color: #fefefe;
+}
+
+#controls, main {
+    border: solid 1px #d0d0d0;
+    border-radius: 3px;
+    padding: 0.5rem;
+    background-color: #f4f4f4;
+    height: fit-content;
+}
+
+main {
+    flex: 1;
+}
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    justify-content: start;
+}
+
+#controls button, input {
+    border: solid 1px #a0a0a0;
+    border-radius: 3px;
+}
+
+#controls button {
+    box-sizing: border-box;
+    width: 5.5rem;
+}
+
+#controls input {
+    padding: 0 0 0 3px;
+    width: 3.5rem;
+    box-sizing: border-box;
+}
+
+.shape {
+    overflow: hidden;
+    opacity: 85%;
+    position: absolute;
+}
+
+.square {
+    background-color: #7af14b;
+    border: solid 1px #202020;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+}
+
+.circle {
+    background-color: #4edcff;
+    border-radius: 50%;
+    border: solid 1px #202020;
+}
+
+.selected {
+    background-color: #fff45d;
+    
+}
