@@ -12,7 +12,6 @@ function shape(size, [x, y], type) {
     shape.classList.add('shape', type);
     
     if (type === 'triangle') {
-        // mhmm triangle is so special
         shape.style.width = '0';
         shape.style.height = '0';
         shape.style.borderLeft = size / 1.5 + 'px solid transparent';
@@ -34,7 +33,6 @@ function shape(size, [x, y], type) {
 }
 
 function shape_on_click(e) {
-    // mhmm triangle is so special
     if (this.classList.contains('triangle')) {
         this.style.borderBottomColor = '#fff45d';
     } else {
