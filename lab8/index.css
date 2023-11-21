@@ -1,0 +1,97 @@
+:root {
+    font-family: 'arial', sans-serif;
+    font-size: medium;
+}
+
+html, body {
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    padding: 0.5rem;
+    display: block flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+button {
+    border: solid 1px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+#app {
+    margin-top: 1rem;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    width: 420px;
+    box-sizing: content-box;
+}
+
+#app div {
+    border: solid 1px #d0d0d0;
+    border-radius: 3px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    padding: 0.5rem;
+    justify-content: start;
+}
+
+#buttons button {
+    box-sizing: border-box;
+    width: 5.5rem;
+}
+
+#entries {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+#printout {
+    padding: 0.5rem;
+    background-color: #fcfcfc;
+    word-wrap: break-word;
+}
+
+.entry {
+    border: solid 1px #c0c0c0;
+    border-radius: 3px;
+    padding: 0.25rem;
+    background-color: #fefefe;
+    display: block flex;
+    flex-direction: row;
+    column-gap: 0.25rem;
+}
+
+.entry input {
+    border: solid 1px #c0c0c0;
+    border-radius: 3px;
+    padding: 1px 3px 1px 3px;
+}
+
+.entry button {
+    padding: 1px;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#printout {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
